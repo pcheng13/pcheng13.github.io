@@ -24,6 +24,13 @@ twq('config','o9ek0');
 <!-- End Twitter conversion tracking event code -->
 </head>
 <body>
-     Pixel for Page View with 3 Product Ids from Peipei
+     Pixel for Page View with 3 Product Ids
+  
+    twq('event', 'tw-o9ek0-obszm', {
+    value: 49.99, // use this to pass the value of the conversion (e.g. 5.00)
+    currency: 'USD', // use this to pass the currency of the conversion with an ISO 4217 code (e.g. 'USD')
+    contents: [{content_id: 'WSX70THB'},{content_id: 'MCRZRMWS'},{content_id: 'WBECNBG3'}], // use this to pass an array of products or content
+    email_address: 'ctat-ads-api+119@twitter.com' // use this to pass a user's email address
+  });
   </body>
 </html>
